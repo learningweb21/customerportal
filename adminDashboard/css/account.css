@@ -1,0 +1,170 @@
+/*
+=============================================
+       REUSABLE CLASSES STYLING
+=============================================
+*/
+
+
+
+
+/*
+=============================================
+       ACCOUNT NAVIGATION STYLING
+=============================================
+*/
+.account .column-4, .account .column-8 {
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 1px 4px #95a5a6;
+  position: relative;
+}
+
+.account .column-4 {
+  margin-right: 1%;
+}
+
+.account-image {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.account-image img {
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.account-image .tertiary i {
+  opacity: 0;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.account-image a:hover > i {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.account-nav {
+  border-top: 1px solid rgba(0,0,0,.3);
+  margin: 20px 0;
+}
+
+.account-nav ul {
+  margin: 35px 0;
+}
+
+.account-nav li {
+  border-bottom: 1px dotted #1abc9c;
+  position: relative;
+}
+
+.account-nav li:last-child {
+  border-bottom: 0;
+}
+
+.account-count {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  padding: 2px;
+  color: #fff;
+  background: #e74c3c;
+}
+
+.account-nav li.active > a {
+  background: #1abc9c;
+  color: #fff;  
+}
+
+.account-nav li a {
+  padding: 10px 0;
+  display: block;
+
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.account-nav li a:hover {
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* Second column */
+.account-header {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.account-footer {
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 12px);
+  padding: 10px 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.account-footer .tertiary {
+  margin-right: 2%;
+}
+
+.all-info {
+  padding: 25px 0;
+  max-height: 320px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 10px;
+  box-shadow: 0 1px 4px #1abc9c;
+}
+
+.info-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 10px 0;
+  padding-left: 8px;
+}
+
+.info-flex > span.input {
+  border-bottom: 1px solid #1abc9c;
+  display: block;
+  width: 70%;
+  padding: 6px 0;
+}
+
+.info-flex .label {
+  font-size: 0.9em;
+  letter-spacing: 0.8px;
+}
+
+.info-flex .input {
+  font-size: 0.8em;
+  position: absolute;
+  left: 160px;
+  color: #bdc3c7;
+}
+
+/*
+==================================================
+        MANAGEMENT OPTIONS STYLING
+==================================================
+*/
+
+
+
+
+/*
+==================================================
+          QUICK ADD PROJECT STYLING
+==================================================
+*/

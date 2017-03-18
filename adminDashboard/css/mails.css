@@ -1,0 +1,459 @@
+h3#mails {
+  font-size: 1.6em;
+  text-transform: capitalize;
+  color: #1abc9c;
+}
+
+#actual-inbox .box {
+  border-radius: 5px;
+}
+
+#actual-inbox .column-2, #actual-inbox .column-12 {
+  background: #34495e;
+}
+
+
+/*
+==================================================
+       QUICK REPORTS STYLING
+==================================================
+*/
+#inbox .box {
+  padding: 0px 22px;
+  border-radius: 5px;
+}
+
+#inbox .rows {
+  padding: 10px;
+}
+
+#inbox .column-4 {
+  padding: 0;
+  border: 0;
+}
+
+.quick-reports {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.inbox-icon {
+  padding: 15px;
+  font-size: 1.2em;
+  color: #fff;
+  background: #16a085;
+}
+
+.inbox-counts {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: #1abc9c;
+  padding-top: 12px;
+}
+
+.inbox-counts .count {
+  font-size: 1.3em;
+  color: #000;
+}
+
+
+/*
+==================================================
+       INBOX FIRST COLUMN STYLING
+==================================================
+*/
+#actual-inbox .inbox-header {
+  margin: 25px;
+  margin-bottom: 12px;
+}
+
+nav.inbox-nav {
+  margin: 25px 0;
+}
+
+nav.inbox-nav ul {
+  border-bottom: 1px dotted #95a5a6;
+}
+
+nav.inbox-nav ul.folder li:last-child {
+  cursor: default;
+}
+
+nav.inbox-nav ul.folder li:last-child:hover {
+  background: transparent;
+}
+
+nav.inbox-nav li {
+  padding: 10px 25px;
+  padding-right: 0;
+  cursor: pointer;
+  position: relative;
+
+  -webkit-transition: background 0.3s ease-out, color 0.3s ease-out;
+  transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+
+nav.inbox-nav li.active {
+  background: #16a085;
+  color: #fff;
+}
+
+nav.inbox-nav li:hover {
+  background: #1abc9c;
+  color: #fff;
+}
+
+nav.inbox-nav .new-mail-counts {
+  width: auto;
+  text-align: center;
+  padding: 2px 6px;
+  color: #fff;
+  background: #C0392B;
+  border-radius: 25px;
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+}
+
+.color-label {
+  margin: 18px 0;
+}
+
+.color-label p {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.color-label {
+  padding-left: 25px;
+}
+
+.color-label p {
+  text-align: left;
+}
+
+.label, .add-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.label-name, .new-label {
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+
+.purple, .blue, .gray, .green, .red, .add-color i {
+  width: 20px;
+  height: 20px;
+  background: #9b59b6;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 0 2px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.blue {
+  background: #3498db;
+}
+
+.gray {
+  background: #bdc3c7;
+}
+
+.green {
+  background: #1abc9c;
+}
+
+.red {
+  background: #e74c3c;
+}
+
+.add-color i {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.add-color, .new-label {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.new-label {
+  margin-top: 2px;
+  font-size: 0.90em;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+
+/*
+==================================================
+       INBOX SECOND COLUMN STYLING
+==================================================
+*/
+#actual-inbox .column-2:last-child {
+  margin-right: 0;
+}
+
+.mail-preview {
+  padding: 25px 0;
+}
+
+.mail-preview-header-container {
+  padding: 0 25px;
+}
+
+.mail-search input[type="search"] {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #1abc9c;
+  padding: 6px;
+  font-size: 0.9em;
+  background: transparent;
+  outline: 0;
+
+  -webkit-transition: box-shadow 0.3s ease-out, color 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out, color 0.3s ease-out;
+}
+
+.mail-search input[type="search"]:focus {
+  box-shadow: 0 2px 6px #16a085;
+  color: #16a085;
+}
+
+.mail-search input[type="search"]::-webkit-input-placeholder {
+  color: rgba(26,187,156,.62);
+  font-size: 0.80em;
+  font-style: italic;
+}
+
+.mail-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #16a085;
+  padding: 2px 0;
+  margin-top: 10px;
+}
+
+.mail-options span {
+  cursor: pointer;
+  padding: 2px;
+  color: #1abc9c;
+  font-size: 0.8em;
+}
+
+.mail-received {
+  margin: 25px 0;
+}
+
+.mail-received li {
+  padding: 0 25px;
+}
+
+.mail-lists li {
+  cursor: pointer;
+  padding-bottom: 6px;
+  border-bottom: 1px dotted #1abc9c;
+
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+}
+
+.mail-lists li:hover {
+  background: rgba(189,195,199,.3);
+}
+
+.mail-lists li:last-child {
+  border-bottom: 0;
+}
+
+.mail-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6px 0;
+  position: relative;
+}
+
+.mail-header .label {
+  position: absolute;
+  left: 60%;
+}
+
+.mail-header .sender-name {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.mail-preview-body {
+  font-size: 0.95em;
+  text-align: justify;
+}
+
+.mail-header .label {
+  margin-right: -160px;
+  width: 15px;
+  height: 15px;
+}
+
+
+
+/*
+==================================================
+       INBOX THIRD COLUMN STYLING
+==================================================
+*/
+.mail-display .mail-options {
+  margin-top: 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mail-display-title, .mail-display .mail-header, .mail-full-content {
+  padding: 0 25px;
+  margin: 25px 0;
+}
+
+.mail-display-title h4 {
+  font-size: 1.4em;
+  color: #1abc9c;
+  margin-bottom: 35px;
+}
+
+.mail-display img {
+  width: 70px;
+}
+
+.sender-receiver {
+  position: absolute;
+  left: 10%;
+  font-size: 1.09em;
+}
+
+.sender-receiver .receiver-name {
+  font-size: 0.9em;
+  margin-top: 6px;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.mail-full-content {
+  margin-top: 45px;
+  font-size: 0.94em;
+  text-align: justify;
+  line-height: 1.5;
+  padding-left: 95px;
+}
+
+.mail-full-content p:first-child {
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  text-indent: 20px;
+}
+
+.mail-content-footer {
+  margin-top: 30px;
+}
+
+.signature p {
+  margin-bottom: 4px;
+  color: #1abc9c;
+}
+
+.signature p:first-child {
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000;
+}
+
+.signature p:last-child {
+  text-decoration: underline;
+}
+
+.receiver-reply {
+  margin-top: 50px;
+  padding: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.receiver-img  {
+  width: 60px;
+}
+
+.receiver-reply form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.receiver-reply form textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  height: 120px;
+  outline: 0;
+  border: 1px solid #1abc9c;
+  background: transparent;
+
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.receiver-reply form textarea::-webkit-input-placeholder {
+  color: rgba(26,187,156,.7);
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.receiver-reply form textarea:focus {
+  box-shadow: 0 2px 12px #16a085;
+}
+
+.receiver-reply input[type="submit"] {
+  border: 0;
+  color: #fff;
+  padding: 8px 12px;
+  background: #1abc9c;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+
+/*
+==================================================
+       QUICK COMPOSE STYLING
+==================================================
+*/
+.quick-menu.mails .menu {
+  background: #1abc9c;
+}

@@ -1,0 +1,42 @@
+/*
+=================================================
+      REUSEABLE CLASSES STYLING
+=================================================
+*/
+.management-header {
+  overflow-x: hidden;
+}
+
+.management-header sup {
+  color: rgba(0,0,0,.75);
+}
+
+.management-header h3 {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 0.4em;
+  text-align: center;
+  text-transform: none;
+  padding: 4px 10px;
+  margin-left: 6px;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  letter-spacing: 0.4px;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+/*
+=================================================
+            EXPENSES STYLING
+=================================================
+*/

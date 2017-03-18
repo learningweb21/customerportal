@@ -1,0 +1,524 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>MAILS - Next Step Web Design</title>
+
+    <!-- Place Normalize here -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Place Custom CSS (Main CSS) here -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Place Column CSS here -->
+    <link href="css/column.css" rel="stylesheet">
+
+    <!-- Place Projects CSS here -->
+    <link href="css/mails.css" rel="stylesheet">
+
+    <!-- PLACE ALL RESPONSIVE CSS HERE -->
+          <!-- Mobile CSS -->
+    <link rel="stylesheet" media="screen and (max-width: 766px)" href="css/mobile.css">
+
+          <!-- Tablet CSS -->
+    <link rel="stylesheet" media="screen and (min-width: 767px) and (max-width: 880px)" href="css/tablet.css">
+
+          <!-- Small laptop CSS -->
+    <link rel="stylesheet" media="screen and (min-width: 881px) and (max-width: 960px)" href="css/small-laptop.css">
+
+    <!-- Ionic Icon -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER AND NAVIGATION -->
+    <header>
+      <div class="logo"><a href="index.html">Next Step Web Design</a></div>
+      <div class="mobile"><i class="ion-navicon"></i></div>
+      <input type="search" placeholder="Search email">
+
+
+<!-- This class wraps the whole notification -->
+      <div class="notice">
+
+<!-- This is the notification icon -->
+        <i class="ion-ios-bell"></i>
+        <span class="message">Notification</span>
+
+        <!-- This display the number of new notification -->
+        <span class="number">24</span>
+
+        <!-- This is where the notications appear on desktop -->
+
+        <ul class="notify">
+          <li><i class="ion-pull-request request"></i> Client <span class="notify-name">Panchos</span> sends a new request
+          <span class="info">01/19/17 - 10:54 AM</span>
+          </li>
+          <li><i class="ion-android-contact account"></i> A new account was created for <span class="notify-name">LaBaba Inc</span>
+          <span class="info">01/19/17 - 09:54 AM</span>
+          </li>
+          <li><i class="ion-android-mail messages"></i> You have <span class="notify-name">12</span> new messages
+          <span class="info">01/18/17 - 10:09 PM</span>
+          </li>
+          <li><i class="ion-help-buoy ticket"></i> You have <span class="notify-name">3</span> new opened tickets
+          <span class="info">01/16/17 - 07:24 AM</span>
+          </li>
+        </ul>
+
+        <i class="ion-arrow-up-b"></i>
+      </div>
+    </header><!-- The header ends here -->
+
+    <nav class="side-nav"><!-- The side nav starts here -->
+      <div class="profile">
+
+        <!-- Profile img for the logged in user -->
+        <img src="img/marius.jpg" alt="Administrator" class="rounded" width="90">
+        <div class="name">Marius Z.</div>
+        <div class="role">Administrator | CEO</div>
+        <a href="#" class="btn">Edit profile <i class="ion-ios-arrow-right"></i></a>
+      </div>
+
+      <!-- Actual navigation links starts here -->
+      <ul class="nav">
+
+        <li><a href="index.html"><i class="ion-ios-speedometer"></i> Dashboard</a></li>
+
+        <li><a href="project.html"><i class="ion-ios-photos"></i> Projects</a></li>
+
+        <li><a href="request.html"><i class="ion-pull-request"></i> Requests</a></li>
+
+        <li class="active"><a href="mail.html"><i class="ion-android-mail"></i> Mails <span class="mail-count">12</span></a></li>
+
+        <li><a href="client.html"><i class="ion-android-people"></i> Clients</a></li>
+
+        <li><a href="employee.html"><i class="ion-ios-people"></i> Employees</a></li>
+
+        <li><a href="finance.html"><i class="ion-pie-graph"></i> Finances</a></li>
+
+      </ul>
+
+      <!-- Users logout or set their settings through the options -->
+      <div class="bottom-options">
+        <ul>
+          <li><a href="setting.html" class="settings"><i class="ion-android-settings"></i></a></li>
+          <li><a href="#" class="logout"><i class="ion-power"></i></a></li>
+        </ul>
+      </div>
+
+    </nav><!-- The nav ends here -->
+
+<!-- HEADER AND NAVIGATION ENDS -->
+
+<div class="container">
+  <div class="block-menu"></div>
+  <div class="block-menu-two"></div>
+
+  <!-- Quick Introduction -->
+  <h3 id="mails">Marius' inbox</h3>
+  <section id="inbox">
+    <!-- Quick reports -->
+    <div class="box">
+      <div class="rows">
+
+        <!-- Unread emails -->
+        <div class="column-4">
+
+          <div class="quick-reports">
+            <div class="inbox-icon"><i class="ion-email-unread"></i></div>
+
+            <div class="inbox-counts">You have <span class="count">12</span> unread messages</div>
+          </div>
+
+        </div>
+
+        <!-- Draft emails -->
+        <div class="column-4">
+
+          <div class="quick-reports">
+            <div class="inbox-icon"><i class="ion-android-drafts"></i></div>
+
+            <div class="inbox-counts">You have <span class="count">2</span> drafted messages</div>
+          </div>
+
+        </div>
+
+        <!-- Outbox emails -->
+        <div class="column-4">
+
+          <div class="quick-reports">
+            <div class="inbox-icon"><i class="ion-paper-airplane"></i></div>
+
+            <div class="inbox-counts">You have <span class="count">1</span> outbox message</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="actual-inbox">
+    <div class="box">
+      <div class="rows">
+        <!-- First column contains labels -->
+        <div class="column-2">
+          <div class="inbox-header">
+            <a href="#" class="global-button tertiary"><i class="ion-ios-compose"></i> Compose</a>
+          </div>
+
+          <nav class="inbox-nav">
+            <ul class="important">
+              <li class="active"><i class="ion-email-unread"></i> Inbox <span class="new-mail-counts">12</span></li>
+
+              <li><i class="ion-android-star"></i> Starred</li>
+
+              <li><i class="ion-ios-paperplane"></i> Sent</li>
+
+              <li><i class="ion-android-drafts"></i> Draft <span class="new-mail-counts">02</span></li>
+
+              <li><i class="ion-paper-airplane"></i> Outbox <span class="new-mail-counts">01</span></li>
+            </ul>
+
+            <ul class="unwanted">
+              <li><i class="ion-trash-a"></i> Trash</li>
+              <li><i class="ion-close-circled"></i> Spam</li>
+            </ul>
+
+            <ul class="folder">
+              <li><i class="ion-folder"></i> Business <span class="new-mail-counts">09</span></li>
+              <li><i class="ion-folder"></i> Client's content</li>
+              <li>
+                <a href="#" class="global-button tertiary"><i class="ion-folder"></i> New folder</a>
+              </li>
+            </ul>
+
+            <div class="color-label">
+              <p>Labels</p>
+              <div class="colors">
+                <div class="label">
+                  <span class="purple"></span>
+                  <span class="label-name">Work</span>
+                </div>
+                <div class="label">
+                  <span class="blue"></span>
+                  <span class="label-name">Client</span>
+                </div>
+                <div class="label">
+                  <span class="gray"></span>
+                  <span class="label-name">Personal</span>
+                </div>
+                <div class="label">
+                  <span class="green"></span>
+                  <span class="label-name">Employee</span>
+                </div>
+                <div class="label">
+                  <span class="red"></span>
+                  <span class="label-name">Important</span>
+                </div>
+                <div class="add-color">
+                  <i class="ion-ios-plus-empty"></i>
+                  <span class="new-label">Add new label</span>
+                </div>
+              </div>
+            </div>
+
+          </nav>
+
+        </div>
+
+        <!-- Second column contains emails -->
+        <div class="column-2">
+
+          <div class="mail-preview">
+
+            <div class="mail-preview-header-container">
+
+              <div class="mail-search">
+                <form action="#" method="get">
+                  <input type="search" name="search" id="email-search" placeholder="Search mails and people">
+                </form>
+              </div><!-- mail search ends -->
+
+              <div class="mail-options">
+                <span class="check-all">
+                  <i class="ion-android-checkbox"></i> Select all
+                </span>
+
+                <span class="download">
+                  <i class="ion-android-download"></i> Download
+                </span>
+
+                <span class="mark-as-read">
+                  <i class="ion-android-drafts"></i> Read
+                </span>
+
+                <span class="starred">
+                  <i class="ion-android-star"></i> Star
+                </span>
+
+                <span class="delete-mail">
+                  <i class="ion-trash-a"></i> Delete
+                </span>
+
+                <span class="mark-as-spam">
+                  <i class="ion-android-cancel"></i> Spam
+                </span>
+              </div><!-- mail options ends -->
+
+            </div><!-- mail preview header cont. ends -->
+
+            <div class="mail-received">
+
+              <ul class="mail-lists">
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">John Doe</div>
+                    <div class="purple label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail li's ends -->
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">Jackie Doe</div>
+                    <div class="blue label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail second li's ends -->
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">John Smith Doe</div>
+                    <div class="blue label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail third li's ends -->
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">Natalia Doe</div>
+                    <div class="green label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail fourth li's ends -->
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">Google, Inc</div>
+                    <div class="red label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail fifth li's ends -->
+
+                <li>
+
+                  <div class="mail-header">
+                    <div class="sender-name">Microsoft, Inc</div>
+                    <div class="red label"></div>
+                    <div class="mail-date"></div>
+                  </div><!-- mail header ends -->
+
+                  <div class="mail-preview-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                  </div><!-- mail preview body ends -->
+                </li><!-- mail li's ends -->
+
+              </ul><!-- mail lists ends -->
+
+            </div><!-- mail received ends -->
+
+          </div><!-- mail preview ends -->
+
+
+        </div><!-- second column-2 ends -->
+
+      </div><!-- rows ends -->
+
+    </div><!-- box ends -->
+
+    <!-- This is where the mail content starts -->
+
+    <div class="box mail-read">
+
+      <div class="rows">
+
+        <div class="column-12">
+          <div class="mail-preview mail-display">
+            <div class="mail-options">
+
+              <span class="back-to-inbox">
+                <i class="ion-android-arrow-back"></i> Inbox
+              </span>
+
+              <span class="reply">
+                <i class="ion-reply"></i> Reply
+              </span>
+
+              <span class="forward">
+                <i class="ion-forward"></i> Forward
+              </span>
+
+              <span class="starred">
+                <i class="ion-android-star"></i> Star
+              </span>
+
+              <span class="print">
+                <i class="ion-ios-printer"></i> Print
+              </span>
+
+              <span class="delete-mail">
+                <i class="ion-trash-a"></i> Delete
+              </span>
+
+              <span class="mark-as-spam">
+                <i class="ion-android-cancel"></i> Spam
+              </span>
+
+            </div><!-- 2nd mail options ends -->
+
+            <div id="printMail">
+              <div class="mail-display-title">
+                <h4>Please update our Google Place. We'll be relocating in two weeks</h4>
+              </div><!-- mail display title ends -->
+
+              <div class="mail-header">
+                <div class="sender-img"><img src="img/girl.jpg"></div>
+
+                  <div class="sender-receiver">
+                    <div class="sender-name">
+                      <span>Jackie Doe</span><br>
+                      <span class="receiver-name">To: Me</span>
+                    </div>
+                  </div>
+
+                  <div class="date-time">
+                    <span class="mail-date"></span> <span> | </span>
+                    <span class="time"></span>
+                  </div>
+
+              </div><!-- 2nd mail header ends -->
+
+              <!-- Full mail content -->
+              <div class="mail-full-content">
+
+                <p>Dear Marius,</p>
+                <p class="paragraph">I want to take this opportunity to thank you and your team. After two three years of operating my business in Albany, NY I am relocating to Latham in two weeks. Please update my Google Place for my business to reflect my new location.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam temporibus voluptates, optio aliquam? Hic incidunt adipisci aliquam quisquam placeat recusandae, facilis cumque dolore. Voluptatibus vero inventore, iusto soluta nam sapiente!</p>
+
+                <p class="mail-content-footer">Sincerely,</p>
+                <div class="signature">
+                  <p>Jackie Doe</p>
+                  <p>Founder of <em>LaCuisine</em></p>
+                  <p>(111) 111-1111</p>
+                  <p>www.lacuisine.com</p>
+                </div>
+
+              </div><!-- mail full content ends -->
+            </div><!-- print mail ends -->
+
+            <div class="receiver-reply">
+              <div class="receiver-img"><img src="img/marius.jpg"></div>
+
+              <form action="#" method="post">
+                <textarea name="mail-reply" placeholder="Type here for a quick reply or drop files here to upload"></textarea><br>
+                <input type="submit" name="mail-submit" value="Reply">
+              </form>
+
+            </div><!-- receiver reply ends -->
+
+          </div><!-- mail preview & mail display ends -->
+        </div><!-- column-12 ends -->
+
+      </div><!-- second rows ends -->
+
+    </div><!-- second box ends -->
+
+  </section><!-- mail section ends -->
+
+
+
+
+  <!-- QUICK COMPOSE STARTS -->
+
+    <div class="quick-menu mails">
+      <div class="menu" title="Compose"><i class="ion-ios-compose"></i></div>
+    </div>
+
+  <!-- QUICK COMPOSE ENDS -->
+
+
+
+
+<!-- MOBILE NOTIFICATION STARTS -->
+  <div class="fixed-position">
+    <div class="mobile-notification">
+      <div class="mobile-icon"><i class="ion-ios-bell"></i></div>
+      <div class="mobile-notice">You have <span class="notify-name">24</span> new notifications</div>
+      <span class="close"><i class="ion-close-round"></i></span>
+    </div>
+  </div>
+<!-- MOBILE NOTIFICATION ENDS -->
+
+</div>
+
+
+
+<!-- FOOTER STARTS -->
+    <footer>
+      <p>&copy; 2017 Next Step Web Design</p>
+    </footer>
+<!-- FOOTER ENDS -->
+
+
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+
+    <script src="js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

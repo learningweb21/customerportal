@@ -1,0 +1,73 @@
+/*
+==================================================
+        REUSABLE CLASSES STYLING
+==================================================
+*/
+.management-status.requests {
+  background: #e74c3c;
+  border: 0;
+}
+
+
+/*
+==================================================
+          REQUESTS STYLING
+==================================================
+*/
+#request {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+.low, .medium, .high {
+  padding: 2px 6px;
+  color: #fff;
+  background: rgba(52,152,219,.76);
+}
+
+.medium {
+  padding: 2px 4px;
+  background: rgba(52,73,94,.76);
+}
+
+.high {
+  background: rgba(231,76,60,.76);
+}
+
+.declined {
+  color: #e74c3c;
+}
+
+.approved {
+  color: #1abc9c;
+}
+
+.wait {
+  color: #3498db;
+}
+
+/*
+==================================================
+          TICKETS STYLING
+==================================================
+*/
+#tickets {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+.still-open {
+  padding: 2px 6px;
+  border: 1px solid #34495e;
+  color: #34495e;
+}
+
+.resolved {
+  padding: 2px 4px;
+  border: 1px solid #1abc9c;
+  color: #1abc9c;
+}

@@ -1,0 +1,100 @@
+
+
+
+/*
+==================================================
+          PROJECTS IN PROGRESS STYLING
+==================================================
+*/
+#in-progress {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+
+
+/*
+==================================================
+          PROJECTS NEW STYLING
+==================================================
+*/
+#new-projects {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+
+/*
+==================================================
+          PROJECTS ON HOLD STYLING
+==================================================
+*/
+#projects-on-hold {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+
+
+/*
+==================================================
+          PROJECTS CANCELLED STYLING
+==================================================
+*/
+#cancelled-projects {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+
+/*
+==================================================
+          PROJECTS COMPLETED STYLING
+==================================================
+*/
+#completed-projects {
+  border-top: 4px double black;
+  margin: 65px 0;
+  position: relative;
+  padding-top: 25px;
+}
+
+#completed-projects thead th {
+  background: #1abc9c;
+}
+
+#completed-projects .all-tables {
+  box-shadow:0px 0px 2px #fff, 0px 0px 6px #1abc9c;
+}
+
+#completed-projects .refresh-project:hover {
+  color: #16a085;
+}
+
+#completed-projects .prev, #completed-projects .next {
+  background: #1abc9c;
+}
+
+#completed-projects .prev:hover, #completed-projects .next:hover {
+  background: #16a085;
+}
+
+#completed-projects .page-number:hover {
+  background: #16a085;
+}
+
+#completed-projects .selected {
+  background: #16a085;
+}
+
+#completed-projects .project-status {
+  color: #1abc9c;
+}

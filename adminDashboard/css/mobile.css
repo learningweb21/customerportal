@@ -1,0 +1,591 @@
+@media screen and (max-width: 766px) {
+  /* SCROLL BAR */
+  ::-webkit-scrollbar-track {
+  	box-shadow: none;
+  	background: #ecf0f1;
+  }
+
+  ::-webkit-scrollbar {
+  	background: #ecf0f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  	background-color: #95a5a6;
+  }
+
+  /*LOGIN SCREEN STYLING*/
+  .login {
+    padding-top: 12%;
+  }
+
+  .login-form {
+    width: 96%;
+    padding: 15px 0;
+  }
+
+  .login-credentials {
+    margin: 15px auto;
+  }
+
+  .login-credentials label {
+    font-size: 0.8em;
+  }
+
+  .login-credentials input::-webkit-input-placeholder {
+    font-size: 0.7em;
+  }
+
+  .login-credentials input {
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-size: 1em;
+  }
+
+  .login-credentials input:last-child {
+    margin-bottom: 6px;
+  }
+
+  a.forget-password {
+    left: 30%;
+  }
+
+  .login .note {
+    text-align: center;
+    font-size: 0.75em;
+    padding: 0 25px;
+    margin-top: 25px;
+  }
+
+
+  /* Mini sidebar */
+  .sidebar-menu, .sidebar-online {
+    display: none;
+  }
+
+  /* Loader */
+  .loader {
+    width: 85px;
+    height: 85px;
+  }
+
+  .overlay p {
+    text-align: center;
+    left: 2.56%;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+  }
+  header input[type="search"] {
+    margin-left: 10%;
+  }
+  header .notice {
+    display: none;
+  }
+
+  /* Removing the block menus */
+  .block-menu, .block-menu-two {
+    display: none;
+  }
+
+  /* Navigation Styling for mobile */
+  nav.side-nav {
+    width: 100%;
+    display: none;
+    z-index: 10;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    position: static;
+  }
+
+  .profile-online {
+    right: 37.5%;
+  }
+
+  span.mail-count {
+    margin-left: 60%;
+  }
+
+  .bottom-options {
+    width: 100%;
+    position: static;
+    margin-top: 45px;
+  }
+
+  nav.side-nav.open {
+    display: block;
+  }
+
+  /* Dashboard Styling for mobile */
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #dash h3 {
+    text-align: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-4 {
+    width: 98%;
+    margin: 25px auto;
+  }
+
+
+  /* Alerts Styling for mobile */
+
+
+/* Ticket Styling for mobile */
+  #tickets {
+    text-align: center;
+  }
+
+  .tables {
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+
+  table {
+    width: 1100px;
+    border-spacing: 0;
+  }
+
+  tbody tr {
+    font-size: 0.8em;
+  }
+
+  tbody span a {
+    padding: 4px 6px;
+  }
+
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+
+  tr:nth-child(even) {
+    background: #e8eeef;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .view-all-tickets {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+
+  /* Reports Styling for mobile */
+  .n-sale-report .header br {
+    display: none;
+  }
+
+  #reports .col-4 {
+    display: block;
+    width: 98%;
+    margin: 25px auto;
+  }
+
+
+  /* Entertainment Styling for mobile */
+  #entertainment .more-forecasts .col-4, #entertainment .options .col-4 {
+    margin: 0;
+  }
+
+  #entertainment .more-forecasts .col-4:nth-child(2) {
+    margin: 0 1% 0;
+  }
+
+  .tasks p {
+    font-size: 0.85em;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  /* Chat Styling for mobile */
+
+  /* Mobile Notification Styling for mobile */
+  .mobile-notification {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50px;
+    height: 60px;
+  }
+
+  .mobile-icon {
+    -webkit-box-flex: 0.2;
+        -ms-flex: 0.2;
+            flex: 0.2;
+    font-size: 2em;
+    padding: 0 15px;
+    text-align: center;
+    color: #fff;
+    background: #2980b9;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    line-height: 60px;
+  }
+
+  .mobile-notice {
+    -webkit-box-flex: 0.9;
+        -ms-flex: 0.9;
+            flex: 0.9;
+    font-size: 1.25em;
+    padding: 15px;
+    text-align: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    background-image: -webkit-linear-gradient(right, rgba(231,76,60,.8), rgba(26,187,156,.82));
+    background-image: linear-gradient(to left, rgba(231,76,60,.8), rgba(26,187,156,.82));
+  }
+
+  .close {
+    position: absolute;
+    padding: 6px 12px;
+    top: -32px;
+    right: 28px;
+  }
+
+  .fixed-position {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+  }
+
+  .fixed-position.highIndex {
+    z-index: 1000;
+  }
+
+  /* CLIENT PAGE */
+  .table-wrapper {
+    width: 98%;
+    overflow-x: scroll;;
+    overflow-y: hidden;
+    margin-bottom: 120px;
+    padding-bottom: 0;
+    box-shadow: 0px 0px 8px #3498db, 0px 0px 12px #2980b9;
+  }
+
+  .all-tables {
+    margin-bottom: 0;
+  }
+
+  .all-tables th i {
+    display: none;
+  }
+
+  .all-tables th:first-child i {
+    margin-left: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .project-status {
+    left: 10%;
+    font-size: 1.1em;
+  }
+
+  /* CLIENT PROFILE PAGE */
+  .company {
+    padding: 75px 0;
+    margin-top: 0;
+  }
+
+  .client-business-details .client-footer {
+    position: static;
+    padding: 20px 0;
+    margin-top: 45px;
+  }
+
+  .client-business-details {
+    padding: 0;
+    padding-top: 12px;
+  }
+
+
+
+  /* EMPLOYEES PAGE */
+  .note {
+    margin-bottom: 100px;
+  }
+
+  /*PROJECT PAGE*/
+  /* Rows styling for mobile */
+  .box {
+    padding: 15px;
+  }
+
+  .rows {
+    display: block;
+    padding: 12px 0;
+  }
+
+  .column-4 {
+    width: 98%;
+    margin: 15px auto;
+  }
+
+  /* Management header styling for mobile */
+  .management-header {
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .management-header h3 {
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .management-header .global-button.secondary,
+  .management-header .global-button.btn-delete {
+    position: static;
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+  }
+
+  /* Projects options styling for mobile */
+  .management-options {
+    width: 100%;
+    margin-bottom: 65px;
+  }
+
+  /* MAILS PAGE */
+  /* column-2 styling for mobile */
+  #actual-inbox .column-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .column-2 {
+    margin-bottom: 10px;
+  }
+
+  #actual-inbox .column-2:first-child {
+    padding: 6px 0;
+  }
+
+  .inbox-header .tertiary {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .mail-preview-body {
+    font-size: 0.8em;
+  }
+
+  /* Mail Display Styling for mobile */
+  .mail-display-title h4 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+
+  .sender-receiver {
+    left: 32%;
+    top: 18px;
+    font-size: 1.06em;
+  }
+
+  .sender-receiver .receiver-name {
+    font-size: 0.8em;
+  }
+
+  .mail-full-content {
+    margin-top: 40px;
+    font-size: 0.9em;
+    padding-left: 25px;
+  }
+
+
+/* EMPLOYEE PROFILE PAGE */
+/* column-6 styling for mobile */
+  .other-info .rows {
+    margin: 18px 0;
+    padding: 0 0 12px;
+  }
+
+  .other-info .column-6:first-child {
+    margin-right: 0;
+  }
+
+  .about-employee .column-6:last-child {
+    margin-top: 25px;
+  }
+
+  .add-new-task button[type="submit"] {
+    display: none;
+  }
+
+  .column-8.employee-projects {
+    margin-right: 2%;
+  }
+
+  .table-container {
+    max-width: 475px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+  }
+
+  .column-4.employee-skills {
+    margin: 25px 0;
+  }
+
+  .employee-options {
+    width: 90%;
+    position: fixed;
+    bottom: 62px;
+    left: 12px;
+  }
+
+  .quick-menu .resume {
+    z-index: 900;
+  }
+
+  /* CLIENT PROFILE PAGE */
+  h3.project-client {
+    text-align: center;
+  }
+
+  .column-5.description-status, .column-7.timeline-features-budget {
+    width: 98%;
+    margin: 15px auto;
+  }
+
+  .column-7.timeline-features-budget {
+    margin-top: 35px;
+  }
+
+  .timeline-wrapper {
+    overflow-x: scroll;
+  }
+
+  .timeline li {
+    margin-right: 15px;
+  }
+
+  .timeline li:last-child {
+    margin-right: 0;
+  }
+
+  .all-features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #web-features {
+    border-right: 0;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 10px;
+  }
+
+  #extra-features {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+
+  .project-budget {
+    margin-top: 35px;
+  }
+
+  .all-budget {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .all-budget > div {
+    text-align: left;
+    border: 0;
+    padding: 6px 0;
+    border-bottom: 1px solid #bdc3c7;
+  }
+
+  .all-budget > div:last-child {
+    border: 0;
+  }
+
+  .all-budget > div span {
+    font-size: 0.9em;
+    color: #95a5a6;
+    margin-bottom: 6px;
+  }
+
+  .all-budget > div p {
+    font-size: 0.85em;
+    color: #1abc9c;
+  }
+
+  /* ACCOUNT PAGE */
+  .account .column-4, .account .column-8 {
+    margin: 25px auto;
+  }
+
+  .account .column-8 {
+    width: 98%;
+  }
+
+  .account-header {
+    padding: 6px 0;
+    font-size: 1.1em;
+  }
+
+  .account-footer {
+    position: static;
+    padding: 4px 0;
+    display: block;
+    margin-top: 12px;
+  }
+
+  .all-info {
+    padding: 15px 0;
+    max-height: 220px;
+  }
+
+  .info-flex > span.input {
+    width: 60%;
+  }
+
+  .info-flex .input {
+    left: 120px;
+  }
+
+
+  .hide-sm {
+    display: none;
+  }
+
+
+  /* Footer Styling for mobile */
+  footer {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+}

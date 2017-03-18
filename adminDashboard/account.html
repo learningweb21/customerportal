@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>ACCOUNT</title>
+
+    <!-- Place Normalize here -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Place Custom CSS (Main CSS) here -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Place Column CSS here -->
+    <link href="css/column.css" rel="stylesheet">
+
+    <!-- Place Projects CSS here -->
+    <link href="css/account.css" rel="stylesheet">
+
+    <!-- PLACE ALL RESPONSIVE CSS HERE -->
+          <!-- Mobile CSS -->
+    <link rel="stylesheet" media="screen and (max-width: 766px)" href="css/mobile.css">
+
+          <!-- Tablet CSS -->
+    <link rel="stylesheet" media="screen and (min-width: 767px) and (max-width: 880px)" href="css/tablet.css">
+
+          <!-- Small laptop CSS -->
+    <link rel="stylesheet" media="screen and (min-width: 881px) and (max-width: 960px)" href="css/small-laptop.css">
+
+    <!-- Ionic Icon -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER AND NAVIGATION -->
+    <header>
+      <div class="logo"><a href="index.html">Next Step Web Design</a></div>
+      <div class="mobile"><i class="ion-navicon"></i></div>
+      <input type="search" placeholder="Search this web app">
+
+
+<!-- This class wraps the whole notification -->
+      <div class="notice">
+
+<!-- This is the notification icon -->
+        <i class="ion-ios-bell"></i>
+        <span class="message">Notification</span>
+
+        <!-- This display the number of new notification -->
+        <span class="number">24</span>
+
+        <!-- This is where the notications appear on desktop -->
+
+        <ul class="notify">
+          <li><i class="ion-pull-request request"></i> Client <span class="notify-name">Panchos</span> sends a new request
+          <span class="info">01/19/17 - 10:54 AM</span>
+          </li>
+          <li><i class="ion-android-contact account"></i> A new account was created for <span class="notify-name">LaBaba Inc</span>
+          <span class="info">01/19/17 - 09:54 AM</span>
+          </li>
+          <li><i class="ion-android-mail messages"></i> You have <span class="notify-name">12</span> new messages
+          <span class="info">01/18/17 - 10:09 PM</span>
+          </li>
+          <li><i class="ion-help-buoy ticket"></i> You have <span class="notify-name">3</span> new opened tickets
+          <span class="info">01/16/17 - 07:24 AM</span>
+          </li>
+        </ul>
+
+        <i class="ion-arrow-up-b"></i>
+      </div>
+    </header><!-- The header ends here -->
+
+    <nav class="side-nav"><!-- The side nav starts here -->
+      <div class="profile">
+
+        <!-- Profile img for the logged in user -->
+        <img src="img/marius.jpg" alt="Administrator" class="rounded" width="90">
+        <div class="name">Marius Z.</div>
+        <div class="role">Administrator | CEO</div>
+      </div>
+
+      <!-- Actual navigation links starts here -->
+      <ul class="nav">
+
+        <li><a href="index.html"><i class="ion-ios-speedometer"></i> Dashboard</a></li>
+
+        <li><a href="project.html"><i class="ion-ios-photos"></i> Projects</a></li>
+
+        <li><a href="request.html"><i class="ion-pull-request"></i> Requests</a></li>
+
+        <li><a href="mail.html"><i class="ion-android-mail"></i> Mails <span class="mail-count">12</span></a></li>
+
+        <li><a href="client.html"><i class="ion-android-people"></i> Clients</a></li>
+
+        <li><a href="employee.html"><i class="ion-ios-people"></i> Employees</a></li>
+
+        <li><a href="finance.html"><i class="ion-pie-graph"></i> Finances</a></li>
+
+      </ul>
+
+      <!-- Users logout or set their settings through the options -->
+      <div class="bottom-options">
+        <ul>
+          <li><a href="setting.html" class="settings"><i class="ion-android-settings"></i></a></li>
+          <li><a href="#" class="logout"><i class="ion-power"></i></a></li>
+        </ul>
+      </div>
+
+    </nav><!-- The nav ends here -->
+
+<!-- HEADER AND NAVIGATION ENDS -->
+
+<div class="container">
+  <div class="block-menu"></div>
+  <div class="block-menu-two"></div>
+
+  <!-- Quick Introduction -->
+  <div class="management-header">
+    <h3 class="account-intro"><i class="ion-person"></i> Account</h3>
+  </div>
+
+  <!-- ACCOUNT NAVIGATION STARTS -->
+
+  <div class="rows account" id="only-this">
+
+    <div class="column-4">
+
+      <div class="account-image">
+        <img src="img/marius.jpg" class="rounded">
+        <a href="#" class="global-button tertiary">Change profile <i class="ion-ios-camera"></i></a>
+      </div><!-- account-image ends -->
+
+      <div class="account-nav">
+
+        <ul>
+          <li class="active"><a href="#account">Basic info</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects completed</a><span class="account-count">16</span></li>
+          <li><a href="#tasks">Tasks</a></li>
+        </ul>
+
+      </div><!-- account-nav ends -->
+
+    </div><!-- column-4 ends -->
+
+    <div class="column-8" id="account">
+
+      <div class="account-info">
+
+        <div class="account-header">
+          <span class="intro">Basic information</span>
+        </div><!--  account-header ends -->
+
+          <div class="all-info">
+
+            <div class="info-flex account-name">
+              <span class="label">Name:</span>
+              <span class="input">Marius Z</span>
+            </div><!-- info-flex and account name ends -->
+
+            <div class="info-flex account-email">
+              <span class="label">Email:</span>
+              <span class="input">marius@exampledemo.com</span>
+            </div><!-- info-flex and account email ends -->
+
+            <div class="info-flex account-title">
+              <span class="label">Role/Title:</span>
+              <span class="input">Owner | CEO | Full Stack Developer</span>
+            </div><!-- info-flex and account title ends -->
+
+            <div class="info-flex account-phone">
+              <span class="label">Phone:</span>
+              <span class="input">(000) 111-1111</span>
+            </div><!-- info-flex and account phone ends -->
+
+            <div class="info-flex account-birth">
+              <span class="label">Birth:</span>
+              <span class="input">October 1st, 1993</span>
+            </div><!-- info-flex and account birth ends -->
+
+            <div class="info-flex account-username">
+              <span class="label">Username:</span>
+              <span class="input">mxzNextStep</span>
+            </div><!-- info-flex and account username ends -->
+
+            <div class="info-flex account-password">
+              <span class="label">Password:</span>
+              <span class="input">******</span>
+            </div><!-- info-flex and account password ends -->
+
+            <div class="info-flex account-gender">
+              <span class="label">Gender:</span>
+              <span class="input">Male</span>
+            </div><!-- info-flex and account gender ends -->
+
+            <div class="info-flex account-join">
+              <span class="label">Join:</span>
+              <span class="input">January 12th, 2015</span>
+            </div><!-- info-flex and account join ends -->
+
+            <div class="info-flex account-address">
+              <span class="label">Address:</span>
+              <span class="input">123 Fake Ave | Albany, NY | 00001</span>
+            </div><!-- info-flex and account address ends -->
+
+            <div class="info-flex account-token">
+              <span class="label">Access token:</span>
+              <span class="input">******</span>
+            </div><!-- info-flex and account token ends -->
+
+            <div class="info-flex account-favquote">
+              <span class="label">Favorite Quote:</span>
+              <span class="input">"The only place success comes before work is in the dictionary" -Vince Lombardi</span>
+            </div><!-- info-flex and account fav quote ends -->
+
+          </div><!-- all-info ends -->
+
+          <div class="account-footer">
+
+            <a href="#" class="global-button tertiary">Edit</a>
+            <a href="setting.html" class="global-button btn-delete">Go to settings</a>
+
+          </div><!--  account-header ends -->
+
+      </div><!-- account-info ends -->
+
+    </div><!-- column-8 ends -->
+
+  </div><!-- rows and account ends -->
+
+  <!-- ACCOUNT NAVIGATION ENDS -->
+
+
+
+
+
+
+
+<!-- MOBILE NOTIFICATION STARTS -->
+  <div class="fixed-position">
+    <div class="mobile-notification">
+      <div class="mobile-icon"><i class="ion-ios-bell"></i></div>
+      <div class="mobile-notice">You have <span class="notify-name">24</span> new notifications</div>
+      <span class="close"><i class="ion-close-round"></i></span>
+    </div>
+  </div>
+<!-- MOBILE NOTIFICATION ENDS -->
+
+</div>
+
+
+
+<!-- FOOTER STARTS -->
+    <footer>
+      <p>&copy; 2017 Next Step Web Design</p>
+    </footer>
+<!-- FOOTER ENDS -->
+
+
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+
+    <script src="js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

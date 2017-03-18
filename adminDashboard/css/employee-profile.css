@@ -1,0 +1,551 @@
+.breadcrumb {
+  margin-right: 12px;
+}
+
+.rows.client {
+  margin: 30px 0;
+}
+
+.column-4.employee-profile:hover, .column-4.employee-skills {
+  box-shadow: none;
+}
+
+.offline span {
+  color: #fff;
+  background: #e74c3c;
+  padding: 4px;
+
+  -webkit-animation: glow 2s 2 linear;
+          animation: glow 2s 2 linear;
+}
+
+/*
+==================================================
+    EMPLOYEE PROFILE CARD STYLING
+==================================================
+*/
+.column-4.employee-profile {
+  background: #fff;
+  padding: 18px 0 0;
+  text-align: center;
+  cursor: default;
+  border-bottom: 0;
+}
+
+.employee-image img {
+  padding: 12px;
+}
+
+.employee-details {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.employee-details .employee {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 12px 12px;
+  margin: 0 12px 15px;
+  position: relative;
+}
+
+.employee-details .employee:last-child {
+  border-bottom: 0;
+}
+
+.employee-details .employee a {
+  position: absolute;
+  right: 12px;
+
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.employee-details .full-job-title span {
+  color: #3498db;
+  text-transform: capitalize;
+}
+
+
+/*
+==================================================
+    OTHER INFO CARD STYLING
+==================================================
+*/
+.column-8.other-info {
+  margin: 15px auto;
+  margin-left: 1%;
+  background: #fff;
+  padding: 12px 12px 0;
+  border-bottom: 0;
+}
+
+.other-info .rows {
+  margin: 18px 0;
+  padding: 18px;
+}
+
+.other-info .column-6 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.other-info .column-6:first-child {
+  margin-right: 1%;
+}
+
+.employee-top {
+  padding: 12px 0;
+  font-size: 2em;
+  color: #fff;
+}
+
+.employee-bottom {
+  padding: 12px 0;
+  font-size: 1.2em;
+  color: #95a5a6;
+}
+
+.number-count {
+  color: #34495e;
+}
+
+.achievement-icon {
+  background: #34495e;
+}
+
+.achievement-number {
+  border: 1px solid #34495e;
+}
+
+.birth-icon {
+  background: #3498db;
+}
+
+.birth-number {
+  border: 1px solid #3498db;
+}
+
+.join-icon {
+  background: #1abc9c;
+}
+
+.join-number {
+  border: 1px solid #1abc9c;
+}
+
+.duration-icon {
+  background: #e74c3c;
+}
+
+.duration-number {
+  border: 1px solid #e74c3c;
+}
+
+.salary-icon {
+  background: #2c3e50;
+}
+
+.salary-number {
+  border: 1px solid #2c3e50;
+}
+
+.location-icon {
+  background: #2980b9;
+}
+
+.location-number {
+  border: 1px solid #2980b9;
+}
+
+
+/*
+==================================================
+    ABOUT EMPLOYEE CARD STYLING
+==================================================
+*/
+.rows.about-employee {
+  margin: 25px 0 45px;
+}
+
+.about-employee .column-6 {
+  background: #fff;
+  padding: 12px;
+}
+
+.about-employee .title {
+  padding-bottom: 12px;
+  color: #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.summary-content p {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+
+.card-footer {
+  border-top: 1px solid #bdc3c7;
+}
+
+.card-footer a {
+  margin-top: 12px;
+}
+
+/* Tasks Card */
+form {
+  margin-top: -10px;
+}
+
+.add-new-task input[type="text"] {
+  width: 90%;
+  padding: 6px 12px;
+  outline: 0;
+  font-size: 0.88em;
+  color: rgba(0,0,0,.5);
+  border: 0;
+  border-bottom: 1px solid #bdc3c7;
+
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.add-new-task input[type="text"]::-webkit-input-placeholder {
+  font-size: 0.82em;
+  letter-spacing: 0.6px;
+  font-style: italic;
+}
+
+.add-new-task input[type="text"]:focus {
+  box-shadow: 0 2px 6px #95a5a6;
+}
+
+.add-new-task button[type="submit"] {
+  padding: 6px 12px;
+  border: 0;
+  background: #fff;
+  font-size: 1.4em;
+  color: #bdc3c7;
+  cursor: pointer;
+
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.add-new-task button[type="submit"]:hover {
+  color: #95a5a6;
+}
+
+.actual-tasks {
+  height: calc(300px - 12px);
+  padding: 12px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.actual-tasks li {
+  padding: 12px 0;
+  font-size: 0.8em;
+  color: rgba(0,0,0,.8);
+  font-style: italic;
+}
+
+label input[type="checkbox"]:checked + .task-name::before {
+  color: #95a5a6;
+}
+
+
+/*
+==================================================
+    EMPLOYEE PROJECT AND SKILLS CARD STYLING
+==================================================
+*/
+.rows.projects-skills {
+  margin-bottom: 55px;
+}
+
+.column-8.employee-projects {
+  margin: 15px auto;
+  margin-right: 1%;
+  background: #fff;
+  padding: 12px;
+  border-bottom: 0;
+}
+
+table#project-for-employee {
+  margin: 0 0 35px;
+  width: 100%;
+  border-spacing: 0;
+  padding-top: 0;
+}
+
+#project-for-employee thead th {
+  font-weight: bolder;
+  background: #fff;
+  color: #bdc3c7;
+  padding: 8px 0;
+}
+
+#project-for-employee tbody tr {
+  font-size: 0.8em;
+}
+
+#project-for-employee tr, td {
+  background: transparent;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+#project-for-employee th {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+#project-for-employee td {
+  text-align: left;
+  padding: 20px;
+}
+
+.client-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 25px;
+}
+
+.client-picture i {
+  margin-right: 4px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #3498db;
+}
+
+.client-picture .company {
+  line-height: 25px;
+}
+
+progress {
+  border: 0;
+}
+
+.footer-card {
+  border-top: 1px solid #bdc3c7;
+  padding-bottom: 12px;
+}
+
+.footer-card .global-button {
+  margin-top: 12px;
+}
+
+/* Employee skills */
+.column-4.employee-skills {
+  background: #fff;
+  padding: 12px;
+  text-align: center;
+  cursor: default;
+  border-bottom: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.employee-skills .title {
+  padding-bottom: 12px;
+  color: #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.actual-skills {
+  padding: 12px 0;
+  margin-bottom: 12px;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.skill-title {
+  color: #3498db;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.skill-holder {
+  border: 1px solid #bdc3c7;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.skill-percent {
+  font-size: 0.8em;
+  padding-left: 15px;
+  background: #3498db;
+}
+
+#html-css {
+  width: 95%;
+}
+
+#js {
+  width: 75%;
+}
+
+#design {
+  width: 80%;
+}
+
+#bootstrap {
+  width: 70%;
+}
+
+#php {
+  background: #bdc3c7;
+  font-style: italic;
+}
+
+
+/*
+==================================================
+    EMPLOYEE OPTIONS STYLING
+==================================================
+*/
+.employee-options {
+  margin-bottom: 0px;
+  width: 40%;
+  position: fixed;
+  z-index: 290;
+  bottom: 60px;
+  left: 217px;
+}
+
+.options-bar {
+  position: relative;
+}
+
+.options-bar .bar {
+  background: transparent;
+}
+
+.options-bar .bar span:hover {
+  box-shadow: 0 2px 12px #000;
+}
+
+.options-bar .bar span {
+  padding: 15px 22px;
+  cursor: pointer;
+  color: #fff;
+  background: #2980b9;
+  font-size: 1.5em;
+  text-align: center;
+
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.actual-options a {
+  display: block;
+  padding: 12px;
+  border-bottom: 1px solid #bdc3c7;
+
+  -webkit-transition: background 0.3s ease-out, color 0.3s ease-out;
+  transition: background 0.3s ease-out, color 0.3s ease-out
+}
+
+.actual-options a.reset-employee-password {
+  color: #3498db;
+}
+
+.actual-options a.delete-employee {
+  color: #e74c3c;
+}
+
+.actual-options a:hover {
+  color: #fff;
+  background: #3498db;
+}
+
+.actual-options a.delete-employee:hover {
+  color: #fff;
+  background: #c0392b;
+}
+
+.actual-options a:last-child {
+  border-bottom: 0;
+}
+
+.actual-options {
+  position: absolute;
+  white-space: nowrap;
+  width: 100%;
+  bottom: 80px;
+  left: 0;
+  background: rgba(0,0,0,.68);
+}
+
+.just-icon {
+  position: absolute;
+  bottom: 59px;
+  left: 20px;
+  font-size: 1.6em;
+  color: rgba(0,0,0,.68);
+}
+
+.actual-options, .just-icon {
+  opacity: 0;
+
+  -webkit-transform: translateX(-1000px);
+          transform: translateX(-1000px);
+  -webkit-transition: opacity 0.3s 0.4s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s 0.4s ease-out, -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s 0.4s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s 0.4s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.actual-options.showOptions, .just-icon.showOptions {
+  opacity: 1;
+
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+
+
+
+/*
+==================================================
+    ANIMATIONS
+==================================================
+*/
+@-webkit-keyframes glow {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+    background: #e74c3c;
+  }
+  100% {
+    opacity: 1;
+    background: #c0392b;
+  }
+}
+@keyframes glow {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+    background: #e74c3c;
+  }
+  100% {
+    opacity: 1;
+    background: #c0392b;
+  }
+}
